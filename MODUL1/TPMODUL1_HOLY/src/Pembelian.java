@@ -139,7 +139,7 @@ public class Pembelian {
                 case 3:
                     // Display ticket details
                     if (penumpang == null || penerbanganTerpilih == null) {
-                        System.out.println("Belum ada tiket yang dipesan.");
+                        System.out.println("Pembelian tiket tidak ada.");
                     } else {
                         System.out.println("\n======= Detail Tiket =======");
                         penumpang.tampilDaftarPenumpang();
@@ -148,8 +148,8 @@ public class Pembelian {
                     break;
 
                 case 4:
-                    // Exit
-                    System.out.println("Terima kasih telah menggunakan sistem.");
+                    // Exit1
+                    System.out.println("Terima kasih !.");
                     return;
 
                 default:
